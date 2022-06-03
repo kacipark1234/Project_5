@@ -1,0 +1,10 @@
+CREATE DATABASE `Portfolio_5`;
+USE `Portfolio_5`;
+
+CREATE TABLE `book`(     
+    `book_number` VARCHAR(20)  primary key,
+    `book_name` VARCHAR(30),  
+    `price` int
+
+);
+

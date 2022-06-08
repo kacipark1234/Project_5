@@ -42,5 +42,22 @@ CREATE TABLE `book`(                          /*創建名稱為 book 的表單*/
     `price` int
 );
 ```
+# PHP與MySQL連線
+localhost:主機名或IP地址  
+root:MySQL用戶名  
+07360514:MySQL密碼  
+```php
+<?php
+  function create_connection(){
+    $link = mysqli_connect("localhost","root","07360514") or die("無法連接".mysqli_connect_error());  //
+    return $link;
+  }
+  function execute_sql($link ,$database,$sql){
+    mysqli_select_db($link,$database) or die("開啟資料庫失敗".mysqli_error($link));
+    $result = mysqli_query($link,$sql);
+    return $result;
+  }
+?>
 
+```
 

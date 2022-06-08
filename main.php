@@ -2,13 +2,14 @@
     
     setcookie("name",$_POST["name"]);
     //echo $_POST["name"];
-
+    
 ?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title>購物車</title>
+        
     </head>
     
         <frameset rows="60,*" border="0">

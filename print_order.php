@@ -3,6 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>連結</title>
+        <style type="text/css">
+            html{
+                 height: 100%;
+            }
+            body{
+                background-image: url(image/bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                height: 100%;
+            }
+        </style>
     </head>
     <body>
         
@@ -17,7 +29,7 @@
                 
             </tr>
             <?php
-                echo $_COOKIE["name"];
+                //echo $_COOKIE["name"];
                 if(empty($_COOKIE["book_id_list"])){
                     echo "<tr align='center' >";
                     echo "<td colspan='6' >目前沒商品</td>";

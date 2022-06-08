@@ -2,6 +2,15 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <style type="text/css">
+            body{
+                background-image: url(image/title_bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                height: 100%;
+            }
+        </style>
     </head>
     <body bgcolor="#9CCDCD">
         

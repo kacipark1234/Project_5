@@ -3,6 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>連結</title>
+        <style type="text/css">
+            html{
+                 height: 100%;
+            }
+            body{
+                background-image: url(image/bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+                height: 100%;
+            }
+        </style>
     </head>
     <body>
         

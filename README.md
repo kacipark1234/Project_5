@@ -8,6 +8,18 @@
 3. (修改/刪除)購物車
 4. 顯示表單
 
+檔案介紹 : 
+
+add_list.php		加入購物車
+change_order.php	更新購物車
+dbtools.inc.php		連接資料庫
+delete_order.php	刪除購物車
+index.php		    登入畫面
+link.php		    連結畫面
+log.php     		顯示商品
+main.php 		    設置上下框架
+print_order.php     顯示表單
+shop_car.php		購物車畫面
 
 ## 登入畫面(index.php)
 輸入名字，將名字用post傳送至main.php
